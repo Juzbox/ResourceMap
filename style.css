@@ -39,6 +39,7 @@ body {
 	color: #black;
 }
 
+
 .header-section {
 	width: var(--w);
 	max-width: var(--mw);
@@ -55,19 +56,51 @@ body {
 	font-family: SGRegular;
 }
 
-.location-section {
+.involved-section {
 	width: var(--w);
 	max-width: var(--mw);
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 50px;
-}
-.location-section p {
-	font-family: SGRegular;
+	margin-bottom: 75px;
 }
 
-.location-section h2 {
+.involved-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 3%;
+}
+
+h2 {
 	font-family: SGSemiBold;
+	margin: 0px;
+}
+
+h3 {
+	font-family: SGRegular;
+	font-size: 18px;
+}
+
+.involved h4 {
+	font-family: SGRegular;
+	font-size: 14px;
+	margin: 0;
+}
+
+.involved p {
+	font-family: SGLight;
+	font-size: 14px;
+	margin: 0;
+}
+
+.pros {
+	margin-bottom: 15px;
+}
+
+.involved span {
+		font-family: SGBold;
+			font-size: 16px;
+
+
 }
 
 .location-grid {
@@ -77,38 +110,54 @@ body {
 }
 
 .items-section {
-		width: var(--w);
+	width: var(--w);
 	max-width: var(--mw);
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 75px;
 }
 
-.items-section h2 {
-		font-family: SGSemiBold;
-
-}
 .items-section p {
 	font-family: SGRegular;
 }
-.items-section table {
-		width: 100%;
-		font-family: SGRegular;
 
+.items-section table {
+	width: 100%;
+	font-family: SGLight;
 }
 
 .funding-section {
-		width: var(--w);
+	width: var(--w);
 	max-width: var(--mw);
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 75px;
 }
 
-.funding-section h2 {
-		font-family: SGSemiBold;
-
-}
 .funding-section p {
 	font-family: SGRegular;
 }
+
+.volunteer-section {
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 75px;
+}
+
+.volunteer-section p {
+	font-family: SGRegular;
+}
+.about-section {
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 75px;
+}
+
+.about-section p {
+	font-family: SGRegular;
+}
+
