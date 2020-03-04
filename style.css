@@ -1,0 +1,114 @@
+@font-face {
+font-family: SGLight;
+src: url("fonts/SpaceGrotesk-Light.woff") format("woff");
+}
+
+@font-face {
+font-family: SGRegular;
+src: url("fonts/SpaceGrotesk-Regular.woff") format("woff");
+}
+
+@font-face {
+font-family: SGBold;
+src: url("fonts/SpaceGrotesk-Bold.woff") format("woff");
+}
+
+@font-face {
+font-family: SGSemiBold;
+src: url("fonts/SpaceGrotesk-SemiBold.woff") format("woff");
+}
+
+@font-face {
+font-family: SGMedium;
+src: url("fonts/SpaceGrotesk-Medium.woff") format("woff");
+}
+
+:root {
+	--w: 70%;
+	--mw: 1024px;
+}
+
+@media only screen and (max-width: 600px) {
+	
+}
+
+body {
+	width: 100%;
+	background-color: #ececec;
+	margin: 0;
+	color: #black;
+}
+
+.header-section {
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 75px;
+}
+
+.header-section h1 {
+	font-family: SGSemiBold;
+}
+
+.header-section p {
+	font-family: SGRegular;
+}
+
+.location-section {
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+.location-section p {
+	font-family: SGRegular;
+}
+
+.location-section h2 {
+	font-family: SGSemiBold;
+}
+
+.location-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 3%;
+}
+
+.items-section {
+		width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 75px;
+}
+
+.items-section h2 {
+		font-family: SGSemiBold;
+
+}
+.items-section p {
+	font-family: SGRegular;
+}
+.items-section table {
+		width: 100%;
+		font-family: SGRegular;
+
+}
+
+.funding-section {
+		width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 75px;
+}
+
+.funding-section h2 {
+		font-family: SGSemiBold;
+
+}
+.funding-section p {
+	font-family: SGRegular;
+}
