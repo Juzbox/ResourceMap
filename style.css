@@ -32,6 +32,19 @@ src: url("fonts/SpaceGrotesk-Medium.woff") format("woff");
 	.involved-section .involved-grid {
 		grid-template-columns: repeat(1, 1fr);
 	}
+	.funding-section .fund-grid {
+	grid-template-columns: repeat(1, 1fr);
+	}
+	
+	.items-section .location-grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.items-section table {
+		font-size: 14px;
+	}
+	.about-section {
+		font-size: 14px;
+	}
 }
 
 body {
