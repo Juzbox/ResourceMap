@@ -1,3 +1,3 @@
 # ResourceMap
 
-URL here
+https://burnedsap.github.io/ResourceMap/
